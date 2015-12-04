@@ -1,0 +1,192 @@
+body {
+	background-image: url("../images/nami.png");
+	background-color:#d9d9d9;
+}
+#main{
+	margin:0 auto;
+
+}
+#tiny{
+	width:1px;
+}
+#about{
+	margin-bottom:10px;
+	padding-top:5px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+#my_chars{
+
+}
+#error_message{
+	height:70px;
+	margin:0 auto;
+}
+#cont_form{
+	padding-top:10px;
+}
+#game_descrptn{
+
+	max-width:100%;
+	margin:0 auto;
+}
+#contact,#lyn_cont{
+	margin:0 auto;
+}
+#contact{
+	max-width:1000px;
+}
+#me{
+	text-align:right;
+}
+.navbar{
+	
+	
+}
+.content{
+	max-width:1300px;
+	margin: 0 auto;
+	padding-bottom:7%;
+}
+.filler{
+	border-radius: 5px 5px 5px 5px;
+	background-color: #eee;
+}
+.padding_5{
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;	
+}
+.padding_10{
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;	
+}
+.padding_20{
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+.margin_2{
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.race_inf{
+	width:100%;
+}
+.char_gall{
+	width:100%;
+	margin:0;
+}
+.char_info{
+	height:100%;
+	padding:0;
+}
+.char_img{
+	padding-right:0px;
+	margin-right:0px;
+}
+.img_hidden{
+
+	
+}
+.gall_img{
+	padding:0;
+	margin-bottom:10px;
+}
+.absolute{
+	position:absolute;
+	
+}
+
+#lyn_info{
+	text-align:left;
+	margin-top:20px;
+	
+}
+.lyn,#nei{
+	
+	
+}
+
+.game_logo{
+	max-height:100%;
+	max-width:400px;
+}
+
+.game_info{
+	height:100%;
+}
+.xs_gall{
+	width:100%;
+	height:15vw;
+	background-color:#333;
+	text-align:center;
+	font-size: 7vw;
+}
+.gall_links_lg,.gall_links_xs{
+	padding-bottom:5%;
+	margin-bottom:20px;
+}
+
+
+/* Carousel base class */
+.carousel {
+	margin-bottom:10px;
+	height:300px;
+	position:right;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height:300px;
+}
+.footer {
+	width: 100%;
+	height: 8%;
+	background-color: #333;
+	text-align:right;
+	position: fixed;
+	bottom: 0;
+	margin-top:20px;
+}
+.footer_gall{
+	width: 100%;
+	height: 8vw;
+	background-color: #333;
+	text-align:right;
+	float: bottom;
+}
+.sm_link{
+    width: 40px;
+    height: 40px;
+    outline: none !important;
+}
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 70px;
+    right: 5vw;
+    display: none;
+    text-indent: -9999px;
+    background: url('../images/icon_top.png') no-repeat;
+    outline: none !important;
+}
